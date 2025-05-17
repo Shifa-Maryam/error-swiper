@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.margin {
+    @apply ml-8 mr-8 md:ml-12 md:mr-12 lg:ml-20 lg:mr-20 2xl:ml-24 2xl:mr-24
+}
+
+.margin-bottom {
+    @apply mb-20 md:mb-[140px] lg:mb-[160px] 2xl:mb-[180px]
+}
+
+.margin-bottom2 {
+    @apply mb-20 md:mb-[140px] lg:mb-[180px] 2xl:mb-[120px]
+}
+
+.margin-bottom2 {
+    @apply mb-[115px] md:mb-[195px] lg:mb-[215px] 2xl:mb-[225]
+}
+
+.navlink-hover {
+    @apply hover:text-primary duration-500 font-medium text-primary/[45%]
+}
+
+.btn-bg {
+    @apply py-[10px] px-[18px] text-white bg-primary rounded-[3px] font-semibold hover:bg-hover duration-500 flex items-center justify-center
+}
+
+.btn-border {
+    @apply py-[11px] px-[27px] border-[1px] border-solid border-primary text-primary rounded-[3px] text-sm font-semibold flex items-center justify-center hover:border-hover hover:bg-hover hover:text-white duration-500
+}
+
+.container-titleSection {
+    @apply flex flex-col lg:m-auto 2xl:m-auto lg:items-center 2xl:items-center lg:w-[55%] lg:text-center 2xl:text-center gap-3 lg:gap-[15px] 2xl:gap-[15px] leading-tight pb-5 md:pb-9 lg:pb-12 2xl:pb-12
+}
+
+.container-titleSection2 {
+    @apply flex flex-col lg:flex-row 2xl:flex-row md:justify-between lg:justify-between 2xl:justify-between leading-tight pb-5 md:pb-9 lg:pb-12 2xl:pb-12 lg:items-center 2xl:items-center gap-3 lg:gap-[15px] 2xl:gap-[15px]
+}
+
+.title-section {
+    @apply text-[40px] font-bold
+}
+
+.title-section2 {
+    @apply text-[40px] font-bold lg:w-[45%]
+}
+
+.desc-section {
+    @apply text-lg lg:w-[90%] text-desc/[44%]
+}
+
+.desc-section2 {
+    @apply text-lg lg:w-[45%] text-desc/[44%]
+}
+
+.container-reason {
+    @apply min-w-full flex py-6 px-3 items-center border border-solid border-primary/[16%] gap-3
+}
+
+.title-reason {
+    @apply text-lg font-semibold
+}
+
+.desc-reason {
+    @apply text-desc
+}
+
+.container-textReason {
+    @apply flex flex-col gap-2
+}
+
+.container-iconReason{
+    @apply text-white p-2 text-2xl bg-primary flex items-center rounded-[3px]
+}
+
+.containe-insurance {
+    @apply min-w-full border border-solid border-primary/[16%] rounded-[5px] p-5 hover:bg-primary/[10%] relative duration-500
+}
+
+.numerasi-insurance {
+    @apply text-primary font-semibold text-3xl pb-3
+}
+
+.title-insurance {
+    @apply text-lg text-black font-semibold pb-1
+}
+
+.desc-insurance {
+    @apply text-sm text-desc/[55%]
+}
+
+.navlink-hover2 {
+    @apply text-text/[57%] hover:text-text/[80%] duration-500
+}
+
+.btn-footer {
+    @apply text-sm px-4 py-2 bg-primary rounded-[5px] text-white hover:bg-hover
+}
+
+.img-gallery {
+    @apply rounded-[5px]
+}
+
+.swiper-scrollbar {
+    @apply bg-primary/20
+}
+
+.swiper-scrollbar-drag {
+    @apply bg-primary
+}
+
+.swiper-pagination-bullets {
+    @apply bg-primary/20
+}
+
+.swiper-pagination-bullet-active {
+    @apply bg-primary !rounded-sm !w-12
+}
+
+.swiper {
+    @apply w-full
+}
+
+.swiper-slide {
+    @apply md:w-[50%] lg:w-[25%] cursor-pointer
+}
+
+.container-price {
+    @apply bg-primary/[8%] rounded-lg border border-solid border-primary/[19%] px-4 py-5 flex gap-6 md:min-w-[41%] lg:w-auto 2xl:w-auto
+}
+
+.price {
+    @apply text-[32px] font-semibold pb-1 pt-2
+}
+
+.container-check {
+    @apply flex items-center text-desc/[91%] gap-2 font-medium
+}
+
+.icon-check {
+    @apply text-lg text-primary
+}
+
+.container-testi {
+    @apply bg-primary/[8%] border border-solid border-primary/[16%] py-5 px-4 rounded-[10px] flex flex-col gap-3 text-[13.5px]
+}
+
+.img-user {
+    @apply w-12 h-12
+}
+
+.month {
+    @apply text-desc/[55%] text-sm
+}
+
+.name {
+    @apply  font-medium
+}
+
+.testi {
+    @apply text-text/[75%]
+}
+
+.ask-container {
+    @apply list-none flex justify-between cursor-pointer items-center
+}
+
+.faq-container {
+    @apply p-5 border border-solid border-primary/[19%] rounded-[10px] flex flex-col gap-2
+}
+
+.question {
+    @apply text-desc/[55%] font-medium group-open:transition-all group-open:ease-in-out group-open:duration-500
+}
+
+.ask {
+    @apply text-[17px] font-semibold
+}
+
+.icon {
+    @apply transition-all group-open:rotate-180 group-open:duration-500
+}
+
+.icon-dropdown {
+    @apply text-[22px]
+}

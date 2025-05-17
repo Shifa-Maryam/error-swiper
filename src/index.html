@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body class="bg-[#FCFCFC] text-[15px] text-text/[91%] font-medium font-urbanist">
+    <header class="bg-[#FCFCFC] sticky z-20 top-0 h-16 md:h-[70px] lg:h-[70px] 2xl:h-20 mt-3" data-aos="fade-down">
+        <div class="margin h-full flex justify-between items-center">
+            <a href="" class="flex items-center gap-3">
+                <iconify-icon icon="map:insurance-agency" class="text-primary text-[28px]"></iconify-icon>
+                <h1 class="font-bold text-lg">Family<span class="text-primary">Care</span></h1>
+            </a>
+
+            <iconify-icon id="btn-menu" icon="material-symbols-light:menu-rounded" class="text-primary text-4xl lg:hidden 2xl:hidden block shrink-0"></iconify-icon>
+
+            <nav id="menu" class="hidden absolute top-16 py-6 left-0 right-0 w-full bg-[#FCFCFC]">
+                <ul class="flex flex-col text-center gap-7">
+                    <li><a href="#" class="navlink-hover">Home</a></li>
+                    <li><a href="#" class="navlink-hover">Service</a></li>
+                    <li><a href="#" class="navlink-hover">Pricing</a></li>
+                    <li><a href="#" class="navlink-hover">Contact</a></li>
+                    <li class="flex gap-3 justify-center">
+                        <a href="#" class="btn-bg">Sign Up</a>
+                        <a href="#" class="btn-border">Login</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="hidden lg:block 2xl:block">
+                <ul class="flex gap-7">
+                    <li><a href="#" class="navlink-hover">Home</a></li>
+                    <li><a href="#" class="navlink-hover">Service</a></li>
+                    <li><a href="#" class="navlink-hover">Pricing</a></li>
+                    <li><a href="#" class="navlink-hover">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hidden lg:block 2xl:block">
+                <div class="flex gap-3">
+                    <a href="#" class="btn-bg">Sign Up</a>
+                    <a href="#" class="btn-border">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="margin-bottom2">
+        <div class="margin flex flex-col md:m-auto md:w-[70%] lg:w-[60%] md:absolute md:inset-0 md:top-[98px] z-10 md:text-center md:items-center">
+            <h1 class="font-bold text-[48px] md:text-[45px] lg:text-[58px] pb-[15px] md:pb-[9px] lg:pb-[15px] leading-snug">For Every Uncertainty, We’ve Got You Covered.</h1>
+            <p class="md:w-[90%] lg:w-[70%] pb-[26px] md:pb-5 lg:pb-[26px]">Life is full of surprises—but you don’t have to face them alone. From health to home, our insurance is built to support you and those you love most.</p>
+            <div class="flex gap-2 md:gap-[14px]">
+                <a href="#" class="btn-bg">Apply Insurance</a>
+                <a href="#" class="btn-border gap-3">Learn More <iconify-icon icon="fluent:arrow-up-right-32-filled"></iconify-icon></a>
+            </div>
+        </div>
+        <img src="assets/image-hero (1).svg" class="mt-[157px] relative hidden md:block">
+    </section>
+
+    <section class="margin margin-bottom">
+        <div class="container-titleSection">
+            <h1 class="title-section">Here’s Why Thousands Trust Us With Their Safety</h1>
+            <p class="desc-section">Choosing insurance isn’t just about policies—it’s about people you can trust. We’re committed to giving you clear coverage.</p>
+        </div>
+
+        <div class="flex overflow-x-scroll min-w-full md:overflow-hidden md:grid md:grid-cols-2 lg:overflow-hidden lg:grid lg:grid-cols-3 2xl:overflow-hidden 2xl:grid 2xl:grid-cols-3 gap-x-[7px] gap-y-5">
+            <div class="container-reason">
+                <div class="container-textReason">
+                    <h2 class="title-reason">Personalized Insurance Plans</h2>
+                    <p class="desc-reason">We understand that no two lives are the same. Our flexible options are tailored to your needs, budget, and future plans.</p>
+                </div>
+
+                <div class="container-iconReason">
+                    <iconify-icon icon="hugeicons:health"></iconify-icon>
+                </div>
+            </div>
+
+            <div class="container-reason">
+                <div class="container-textReason">
+                    <h2 class="title-reason">Personalized Insurance Plans</h2>
+                    <p class="desc-reason">We understand that no two lives are the same. Our flexible options are tailored to your needs, budget, and future plans.</p>
+                </div>
+
+                <div class="container-iconReason">
+                    <iconify-icon icon="hugeicons:health"></iconify-icon>
+                </div>
+            </div>
+
+            <div class="container-reason">
+                <div class="container-textReason">
+                    <h2 class="title-reason">Personalized Insurance Plans</h2>
+                    <p class="desc-reason">We understand that no two lives are the same. Our flexible options are tailored to your needs, budget, and future plans.</p>
+                </div>
+
+                <div class="container-iconReason">
+                    <iconify-icon icon="hugeicons:health"></iconify-icon>
+                </div>
+            </div>
+
+            <div class="container-reason">
+                <div class="container-textReason">
+                    <h2 class="title-reason">Personalized Insurance Plans</h2>
+                    <p class="desc-reason">We understand that no two lives are the same. Our flexible options are tailored to your needs, budget, and future plans.</p>
+                </div>
+
+                <div class="container-iconReason">
+                    <iconify-icon icon="hugeicons:health"></iconify-icon>
+                </div>
+            </div>
+
+            <div class="container-reason">
+                <div class="container-textReason">
+                    <h2 class="title-reason">24/7 Customer Support</h2>
+                    <p class="desc-reason">Got questions? Need to make a claim? Our support team is always ready to help—anytime, anywhere.</p>
+                </div>
+
+                <div class="container-iconReason">
+                    <iconify-icon icon="solar:user-outline"></iconify-icon>
+                </div>
+            </div>
+
+            <div class="container-reason">
+                <div class="container-textReason">
+                    <h2 class="title-reason">Comprehensive Coverage Options</h2>
+                    <p class="desc-reason">From life and health to travel and property, trust us, we’ve got a plan for every stage of your journey.</p>
+                </div>
+
+                <div class="container-iconReason">
+                    <iconify-icon icon="material-symbols-light:dashboard-outline"></iconify-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="margin margin-bottom">
+        <div class="container-titleSection2">
+            <h1 class="title-section2">Our Insurance Services, Tailored for Every Need</h1>
+            <p class="desc-section2">From everyday protection to long-term security, Explore our coverage options and find the peace of mind you deserve.</p>
+        </div>
+
+        <div class="flex min-w-full overflow-x-scroll md:overflow-hidden md:grid md:grid-cols-2 lg:overflow-hidden lg:grid lg:grid-cols-4 2xl:overflow-hidden 2xl:grid 2xl:grid-cols-4 gap-5">
+            <div class="containe-insurance">
+                <div class="relative">
+                    <h1 class="numerasi-insurance">01</h1>
+                    <h2 class="title-insurance">Life Insurance</h2>
+                    <p class="desc-insurance">Protect your loved ones’ future with flexible life insurance plans that provide financial security when it matters most.</p>
+                </div>
+                <img src="assets/icon-love.svg" class="absolute bottom-0 right-0">
+            </div>
+
+            <div class="containe-insurance">
+                <div class="relative">
+                    <h1 class="numerasi-insurance">02</h1>
+                    <h2 class="title-insurance">Health Insurance</h2>
+                    <p class="desc-insurance">Access quality healthcare without financial stress. Our health plans cover emergencies, check-ups, and everything in between.</p>
+                </div>
+                <img src="assets/icon-health.svg" class="absolute bottom-0 right-0">
+            </div>
+
+            <div class="containe-insurance">
+                <div class="relative">
+                    <h1 class="numerasi-insurance">03</h1>
+                    <h2 class="title-insurance">Vehicle Insurance</h2>
+                    <p class="desc-insurance">Stay safe on the road with comprehensive vehicle protection—from minor bumps to major repairs. it’s easy to access here.</p>
+                </div>
+                <img src="assets/icon-carVehicle.svg" class="absolute bottom-0 right-0">
+            </div>
+
+            <div class="containe-insurance">
+                <div class="relative">
+                    <h1 class="numerasi-insurance">04</h1>
+                    <h2 class="title-insurance">Home Insurance</h2>
+                    <p class="desc-insurance">Secure your space. We cover your home and belongings from unexpected events like fire, theft, or natural disasters.</p>
+                </div>
+                <img src="assets/icon-home.svg" class="absolute bottom-0 right-0">
+            </div>
+        </div>
+    </section>
+
+    <section class="margin margin-bottom">
+        <div class="container-titleSection !pb-16 md:!pb-20 lg:!pb-24 2xl:!pb-28">
+            <h1 class="title-section">Our Insurance Services, Tailored for Every Need</h1>
+            <p class="desc-section lg:!w-full">From everyday protection to long-term security, Explore our coverage options and find the peace of mind you deserve.</p>
+        </div>
+
+        <div class="relative">
+            <div class="p-2 bg-primary text-white w-[112px] text-center font-medium rounded-t-lg absolute -top-[38px] left-2">
+                <p>Most Populer</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:flex md:min-w-full md:overflow-x-scroll lg:overflow-hidden 2xl:overflow-hidden lg:grid lg:grid-cols-3 2xl:grid 2xl:grid-cols-3 gap-4 relative">    
+                <div class="container-price">
+                    <div class=" flex flex-col">
+                        <h3 class="border border-solid border-black/[13%] text-desc/[90%] font-semibold py-1 px-2 rounded-[5px] w-[80px]">Standart</h3>
+                        <h2 class="price">$200<span class="text-desc/[55%]">.99</span></h2>
+                        <p class="text-desc/[90%] text-sm pb-4">Basic Protection Plan</p>
+                        <a href="" class="btn-bg !text-sm !py-2 !px-[4px]">Apply Insurance</a>
+                    </div>
+
+                    <div class="flex flex-col justify-between">
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Basic medical care</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Easy online claims</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Basic hospital care</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>24/7 health support</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Generic medication</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-price">
+                    <div class="flex flex-col">
+                        <h3 class="border border-solid border-black/[13%] text-desc/[90%] font-semibold py-1 px-2 rounded-[5px] w-[80px]">Premium</h3>
+                        <h2 class="price">$356<span class="text-desc/[55%]">.99</span></h2>
+                        <p class="text-desc/[90%] text-sm pb-4 ">Premium Health Plan</p>
+                        <a href="" class="btn-bg !text-sm !py-2 !px-[4px]">Apply Insurance</a>
+                    </div>
+
+                    <div class="flex flex-col justify-between">
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Full Hospital Coverage</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Special Consultations</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Pro hospital care</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>24/7 health support</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Generic medication</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-price">
+                    <div class=" flex flex-col">
+                        <h3 class="border border-solid border-black/[13%] text-desc/[90%] font-semibold py-1 px-2 rounded-[5px] w-[40px]">Pro</h3>
+                        <h2 class="price">$400<span class="text-desc/[55%]">.99</span></h2>
+                        <p class="text-desc/[90%] text-sm pb-4">Basic Protection Plan</p>
+                        <a href="" class="btn-bg !text-sm !py-2 !px-[4px]">Apply Insurance</a>
+                    </div>
+
+                    <div class="flex flex-col justify-between">
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Super Medical Care</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Easy online claims</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Basic hospital care</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>24/7 health support</p>
+                        </div>
+                        <div class="container-check">
+                            <iconify-icon icon="ei:check" class="icon-check"></iconify-icon>
+                            <p>Generic medication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="margin margin-bottom">
+        <div class="container-titleSection2">
+            <h1 class="title-section2">Explore Our Moments of Protection</h1>
+            <p class="desc-section2 lg:!w-[44%] 2xl:!w-[44%]">Step into our gallery and see how we bring peace of mind to families, homeowners, drivers, and individuals every day.</p>
+        </div>
+
+        <div class="swiper gallery-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/gallery 1.svg" class="img-gallery">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/gallery 2.svg" class="img-gallery">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/gallery 3.svg" class="img-gallery">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/gallery 4.svg" class="img-gallery">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/gallery 1.svg" class="img-gallery">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/gallery 2.svg" class="img-gallery">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/gallery 3.svg" class="img-gallery">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/gallery 4.svg" class="img-gallery">
+                </div>
+            </div>
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <section class="margin margin-bottom flex flex-col md:flex-row lg:flex-row 2xl:flex-row lg:gap-[70px]">
+        <div class="lg:w-[47%] lg:mt-16">
+            <h2 class="font-bold text-4xl pb-2">Frequently Asked Questions About Your Coverage</h2>
+            <p class="text-desc/[55%] pb-7">We know insurance can be confusing—so we’ve answered the most common questions to help you feel confident and informed every step of the way.</p>
+            <a href="#" class="btn-border gap-3 lg:w-[169px]">Ask Questions<iconify-icon icon="bi:arrow-right"></iconify-icon></a>
+        </div>
+
+        <div class="flex flex-col gap-3 lg:w-[53%]">
+            <details class="group faq-container">
+                <summary class="ask-container">
+                    <span class="ask">Do you cover dental and vision care?</span>
+                    <span class="icon"><iconify-icon icon="iconamoon:arrow-down-2-light" class="icon-dropdown"></iconify-icon></span>
+                </summary>
+                <p class="question">The best time to visit Chiang Mai is from November to February. The weather is cooler, with clear skies and ideal conditions for outdoor activities and exploring the city.</p>
+            </details>
+
+            <details class="group faq-container">
+                <summary class="ask-container">
+                    <span class="ask">How do I file a claim for a car accident?</span>
+                    <span class="icon"><iconify-icon icon="iconamoon:arrow-down-2-light" class="icon-dropdown"></iconify-icon></span>
+                </summary>
+                <p class="question"></p>
+            </details>
+
+            <details class="group faq-container">
+                <summary class="ask-container">
+                    <span class="ask"> Can I customize my insurance coverage?</span>
+                    <span class="icon"><iconify-icon icon="iconamoon:arrow-down-2-light" class="icon-dropdown"></iconify-icon></span>
+                </summary>
+                <p class="question"></p>
+            </details>
+
+            <details class="group faq-container">
+                <summary class="ask-container">
+                    <span class="ask">Can I cancel my plan anytime?</span>
+                    <span class="icon"><iconify-icon icon="iconamoon:arrow-down-2-light" class="icon-dropdown"></iconify-icon></span>
+                </summary>
+                <p class="question"></p>
+            </details>
+        </div>
+    </section>
+
+    <section class="margin margin-bottom2">
+        <div class="container-titleSection2">
+            <h1 class="title-section2">What Our Customers Say About Our Service</h1>
+            <p class="desc-section2 lg:!w-[43%] 2xl:!w-[43%]">Real stories. Real peace of mind. Hear from our customers across health, home, and auto insurance who trust us.</p>
+        </div>
+
+        <div class="swiper testimonial-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide container-testi">
+                    <div class="flex items-center gap-2">
+                        <img src="assets/user 1.svg" class="img-user">
+                        <div class="flex flex-col">
+                            <p class="name">Abhimanyu P</p>
+                            <p class="month">January, 2024</p>
+                        </div>
+                    </div>
+                    <p class="testi">I had to rush to the ER unexpectedly, and thanks to this insurance, I didn’t have to stress about paperwork.</p>
+                </div>
+
+                <div class="swiper-slide container-testi">
+                    <div class="flex items-center gap-2">
+                        <img src="assets/user 2.svg" class="img-user">
+                        <div class="flex flex-col">
+                            <p class="name">Maya K</p>
+                            <p class="month">January, 2024</p>
+                        </div>
+                    </div>
+                    <p class="testi">After my car accident, this insurance covered all my medical bills and gave me peace of mind.</p>
+                </div>
+
+                <div class="swiper-slide container-testi">
+                    <div class="flex items-center gap-2">
+                        <img src="assets/user 3.svg" class="img-user">
+                        <div class="flex flex-col">
+                            <p class="name">Liam T</p>
+                            <p class="month">March, 2024</p>
+                        </div>
+                    </div>
+                    <p class="testi">I was diagnosed with a chronic illness, and the support from this insurance helped me.</p>
+                </div>
+
+                <div class="swiper-slide container-testi">
+                    <div class="flex items-center gap-2">
+                        <img src="assets/user 4.svg" class="img-user">
+                        <div class="flex flex-col">
+                            <p class="name">Sofia R</p>
+                            <p class="month">April, 2024</p>
+                        </div>
+                    </div>
+                    <p class="testi">When my son needed surgery, this insurance made the process seamless, allowing us to focus here.</p>
+                </div>
+
+                <div class="swiper-slide container-testi">
+                    <div class="flex items-center gap-2">
+                        <img src="assets/user 1.svg" class="img-user">
+                        <div class="flex flex-col">
+                            <p class="name">Abhimanyu P</p>
+                            <p class="month">January, 2024</p>
+                        </div>
+                    </div>
+                    <p class="testi">I had to rush to the ER unexpectedly, and thanks to this insurance, I didn’t have to stress about paperwork.</p>
+                </div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="flex margin-bottom relative">
+        <img src="assets/img-cta.svg" class="absolute bottom-0 w-[600px] left-8 hidden lg:block 2xl:block">
+        <div class="bg-primary/[8%] relative w-full">
+            <div class="margin relative py-10 flex flex-col md:text-center lg:text-start md:m-auto lg:m-0 2xl:m-0 2xl:text-start md:items-center lg:items-start 2xl:items-start md:w-[70%] lg:w-[40%] 2xl:w-[40%] lg:left-[680px] 2xl:left-[680px]">
+                <h1 class="text-4xl leading-snug font-bold pb-3">Ready to Protect What Matters Most In Your Life?</h1>
+                <p class="lg:w-[95%] 2xl:w-[95%] pb-4">Don't wait for uncertainty to catch you off guard. Whether it's your health, your home, or your vehicle, we've got the protection you need!</p>
+                <div class="flex gap-2 md:gap-[14px]">
+                    <a href="#" class="btn-bg">Apply Insurance</a>
+                    <a href="#" class="btn-border gap-3">Learn More <iconify-icon icon="fluent:arrow-up-right-32-filled"></iconify-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="margin py-10 flex flex-col gap-9">
+        <div class="flex items-center gap-3">
+            <iconify-icon icon="map:insurance-agency" class="text-primary text-[28px]"></iconify-icon>
+            <h1 class="font-bold text-lg">Family<span class="text-primary">Care</span></h1>
+        </div>
+
+        <div class="flex flex-col lg:flex-row 2xl:flex-row justify-between gap-[33px]">
+            <div class="grid grid-cols-2 md:flex lg:flex 2xl:flex gap-[33px] justify-between">
+                <div class="flex flex-col gap-[10px]">
+                    <p class="text-xl font-medium">Link</p>
+                    <ul class="flex flex-col gap-2">
+                        <li><a href="#" class="navlink-hover2">Home</a></li>
+                        <li><a href="#" class="navlink-hover2">Service</a></li>
+                        <li><a href="#" class="navlink-hover2">Pricing</a></li>
+                        <li><a href="#" class="navlink-hover2">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-[10px]">
+                    <p class="text-xl font-medium">Social Media</p>
+                    <ul class="flex flex-col gap-2">
+                        <li><a href="#" class="navlink-hover2">Instagram</a></li>
+                        <li><a href="#" class="navlink-hover2">Facebook</a></li>
+                        <li><a href="#" class="navlink-hover2">Tiktok</a></li>
+                        <li><a href="#" class="navlink-hover2">Twitter</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-[10px] w-[500px] md:w-auto lg:w-auto 2xl:w-auto">
+                    <p class="text-xl font-medium">Kontak Kami</p>
+                    <ul class="flex flex-col gap-2">
+                        <li><a href="#" class="navlink-hover2">familycare@gmail.com</a></li>
+                        <li><a href="#" class="navlink-hover2">famcare.support@gmail.com</a></li>
+                        <li><a href="#" class="navlink-hover2">+1 632 791 7352</a></li>
+                        <li><a href="#" class="navlink-hover2">@family.care_</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-[10px]">
+                    <p class="text-xl font-medium">Support</p>
+                    <ul class="flex flex-col gap-2">
+                        <li><a href="#" class="navlink-hover2">Help Center</a></li>
+                        <li><a href="#" class="navlink-hover2">FAQs</a></li>
+                        <li><a href="#" class="navlink-hover2">Live Chat</a></li>
+                        <li><a href="#" class="navlink-hover2">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[10px] md:justify-center md:items-center lg:justify-normal lg:items-start">
+                <p class="text-xl font-medium">Sign In now</p>
+                <div class="w-[300px] h-[50px] relative">
+                    <input type="text" placeholder="Enter Your Email" class="w-full h-full p-4 rounded-md border border-solid border-primary/[19%]">
+                    <a href="" class="absolute right-3 top-[6px] btn-footer">Sign In</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full border-t border-solid border-black/[16%] flex flex-col md:flex-row lg:flex-row 2xl:flex-row md:justify-between lg:justify-between 2xl:justify-between text-desc/[55%] ">
+            <p class="mt-6">&copy; Copyright by Atrem Project. All right reserved</p>
+
+            <div class="flex gap-5 mt-2 md:mt-6 lg:mt-6 2xl:mt-6">
+                <a href="">Privacy Police</a>
+                <a href="">Term of use</a>
+                <a href="">Legal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="swiper1.js"></script>
+    <script src="swiper2.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+        })
+    </script>
+</body>
+</html>

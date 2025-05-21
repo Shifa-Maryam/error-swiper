@@ -111,12 +111,12 @@
     @apply bg-primary
 }
 
-.swiper-pagination-bullets {
+.swiper-pagination-bullet {
     @apply bg-primary/20
 }
 
 .swiper-pagination-bullet-active {
-    @apply bg-primary !rounded-sm !w-12
+    @apply bg-primary !rounded !w-12
 }
 
 .swiper {
@@ -124,7 +124,7 @@
 }
 
 .swiper-slide {
-    @apply md:w-[50%] lg:w-[25%] cursor-pointer
+    @apply md:w-[50%] lg:w-[24%] cursor-pointer
 }
 
 .container-price {

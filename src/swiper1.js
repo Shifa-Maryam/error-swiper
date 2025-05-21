@@ -8,6 +8,7 @@ const swiperGallery = new Swiper('.gallery-swiper', {
   scrollbar: {
     el: '.gallery-swiper .swiper-scrollbar ',
     draggable: true,
+    clickable: true,
   },
 
   breaakpoint: {

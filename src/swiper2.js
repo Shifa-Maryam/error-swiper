@@ -7,7 +7,7 @@ const swiperTesti = new Swiper('.testimonial-swiper', {
    
   pagination: {
     el: '.testimonial-swiper .swiper-pagination',
-    lickable: true,
+    clickable: true,
     type: 'bullets',
   },
 
